@@ -2,6 +2,7 @@ import os
 
 # Replace py39 with py37 in setup file
 # blah
+# blah2
 txt = open('setup.py', 'r').read()
 open('setup_orig.py', 'w+').write(txt)
 txt_py37 = txt.replace('3.9', '3.7')
